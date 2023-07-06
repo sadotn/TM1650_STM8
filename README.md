@@ -44,3 +44,28 @@ Others
 ==============
 
 The library allows to reduce the extra 67 bytes sketch size, defined by an macro variable `TM1650_MEMORY_SAVER` in file `TM1650_STM8.h`.
+
+
+PIN #	DESCRIPTION
+==============
+
+![image](https://github.com/sadotn/TM1650_STM8/assets/90098747/2560d3fa-4a07-4497-b4a2-9539a6500e9e)
+
+```
+1	Digit 1 (The most left-hand side)
+2	Digit 2
+3	Digit 3
+4	Digit 4 (The most right-hand side)
+5	Cathode (-)
+6	Anode (+)
+7	Segment Dp
+8	Segment G
+9	Segment F
+10	Segment E
+11	Segment D
+12	Segment C
+13	Segment B
+14	Segment A
+PS	Red colour arrow pointed segments are unable to turn on
+PS	All digits dp segment are connected to the same LED, Segment Dp brightness affected by how many digit dp was turned on
+```
